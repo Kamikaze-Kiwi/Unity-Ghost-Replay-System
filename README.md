@@ -17,7 +17,7 @@ Below is a step-by-step guide to implementing this system in your own projects. 
 
 ### 1. Install the Unity Package
    
-The latest release of the Unity Package can be found [here](https://github.com/MaikelHendrikx1/Unity-Ghost-Replay-System/releases/last), or in the releases section of this GitHub repository.
+The latest release of the Unity Package can be found [here](https://github.com/MaikelHendrikx1/Unity-Ghost-Replay-System/releases), or in the releases section of this GitHub repository.
 Once downloaded, with your project open, simply run GhostReplay.unitypackage and it will import into your project. If a menu pops up asking you which files to include, ensure to include all files. 
 The 'ghost' material may be skipped if you want to create a custom material for your ghost object, however.
 
