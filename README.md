@@ -36,9 +36,9 @@ A good example would be lvl01 or simply 01.
 
 ### 3. Create the object that will be playing back the recording
 
-Create an object with the same model as object from step 2. This object should have no physics, rigidbody or colliders. Ideally, it should contain nothing except for the visuals. 
+Create an object with the same model as the object from step 2. This object should have no physics, rigidbody or colliders. Ideally, it should contain nothing except for the visuals. 
 Then I recommend making the ghost object visually distinctive from the player, and transparent. The easiest way is to use the ghost material provided by the package, but you can ofcourse also create a separate model or material.
-Make sure to put this object in the same position as the player object, and to have it enabled at the start. This Unity package will automatically disable & hide the object if no recording is present.
+Make sure to put this object in the same starting position as the player object, and to have it enabled at the start. This Unity package will automatically disable & hide the object if no recording is present.
 
 
 ### 4. Add the 'RecordingPlayer' script to the gameobject you created in step 3.
