@@ -64,3 +64,25 @@ All that is left to do now is to call the methods exposed by the system, from yo
 ### 6. Time to test!
 
 That was everything required to implement the ghost replay system. You can now test to see if everything works as expected.
+
+
+
+## Performance impact
+
+I ran some tests to measure the impact on performance while using this system. I implemented this system into the [Unity learn Karting microgame](https://assetstore.unity.com/packages/templates/unity-learn-karting-microgame-urp-150956) and measured the average framerate throughout a race. The hardware this test was ran on is as follows:
+- CPU: Intel Core i7-10750H
+- GPU: NVIDIA GeForce GTX 1650 Ti
+- RAM: 16GB at 2933 MHz
+
+Below are the results:
+| Test nr | Without ghost system | With ghost system |
+| ----- | ----- | ----- |
+| 1 | 712 fps | 706 fps |
+| 2 | 694 fps | 702 fps |
+| 3 | 733 fps | 728 fps |
+| 4 | 726 fps | 720 fps |
+| 5 | 705 fps | 698 fps |
+| All rounded | 714 fps | 711 fps  |
+
+
+From this (admittedly small-scoped) test, it is now clear that this system does not have a significant effect on the framerate of the game.
