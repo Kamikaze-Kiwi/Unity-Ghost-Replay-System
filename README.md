@@ -1,5 +1,9 @@
 # Unity Ghost Replay System
 
+  * [Introduction](#introduction)
+  * [How to implement](#how-to-implement)
+  * [Performance impact](#performance-impact)
+
 ## Introduction
 
 Unity Ghost Replay System is a simple Unity Package that allows you to easily add a ghost replay system to your game. A ghost replay system is a system where all your inputs or movements are recorded, and then they are played back the next time you play the same level.
