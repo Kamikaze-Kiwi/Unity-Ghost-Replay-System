@@ -31,6 +31,13 @@ public record TransformState
             z = MathF.Round(pos.z, roundTo);
         }
         
+        public Position(string pos)
+        {
+            string[] vals = pos.Split(':');
+            x = float.Parse(vals[0]);
+            y = float.Parse(vals[1]);
+            z = float.Parse(vals[2]);
+        }
     }
 
     [Serializable]
@@ -48,6 +55,15 @@ public record TransformState
             z = MathF.Round(rot.z, roundTo);
             w = MathF.Round(rot.w, roundTo);
         }
+
+        public Rotation(string rot)
+        {
+            string[] vals = rot.Split(':');
+            x = float.Parse(vals[0]);
+            y = float.Parse(vals[1]);
+            z = float.Parse(vals[2]);
+            w = float.Parse(vals[3]);
+        }
     }
 
     [Serializable]
@@ -62,6 +78,14 @@ public record TransformState
             x = MathF.Round(sca.x, roundTo);
             y = MathF.Round(sca.y, roundTo);
             z = MathF.Round(sca.z, roundTo);
+        }
+
+        public Scale(string sca)
+        {
+            string[] vals = sca.Split(':');
+            x = float.Parse(vals[0]);
+            y = float.Parse(vals[1]);
+            z = float.Parse(vals[2]);
         }
     }
 }
