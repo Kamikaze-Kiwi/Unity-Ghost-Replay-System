@@ -3,6 +3,7 @@
   * [Introduction](#introduction)
   * [How to implement](#how-to-implement)
   * [Performance impact](#performance-impact)
+  * [Planned features](#planned-features)
 
 ## Introduction
 
@@ -88,5 +89,12 @@ Below are the results:
 | 5 | 705 fps | 698 fps |
 | All rounded | 714 fps | 711 fps  |
 
-
 From this (admittedly small-scoped) test, it is now clear that this system does not have a significant effect on the framerate of the game.
+
+
+## Planned features
+These are the currently planned features. Once all these features are implemented & tested on a larger scale, the 1.0.0 version of this project will be released.
+
+- Animation support (Recording & replaying of animations)
+- The ability to easily add your own states to record (For example to allow you to record & replay particles, sprite renderers, custom components etc.), along with a template & guide to show you how.
+- Options menu to allow you to change some settings such as state record interval, floating point accuracy, etc.
