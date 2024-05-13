@@ -15,6 +15,8 @@ The system handles all the hard parts of a replay system for you (recording, pla
 I have created a simple implementation of this system in the [Unity learn Karting microgame](https://assetstore.unity.com/packages/templates/unity-learn-karting-microgame-urp-150956). 
 A small demo (in video format) can be found [here](https://www.youtube.com/watch?v=GKyJadbZ9KA).
 
+A playable demo of this implementation can be downloaded [here](https://drive.google.com/file/d/1x-S__PTNgi36afmh1kk8dVm3Efq-BywO/view?usp=sharing).
+
 
 ## How to implement
 
