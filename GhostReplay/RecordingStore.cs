@@ -55,7 +55,7 @@ public static class RecordingStore
             string text = File.ReadAllText(Path.Combine(Application.persistentDataPath + recordingLocation, id + ".grs"));
             return StringToRecording(text);
         }
-        catch (FileNotFoundException) { return null; }
+        catch (Exception) { return null; }
     }
 
     /// <summary>
