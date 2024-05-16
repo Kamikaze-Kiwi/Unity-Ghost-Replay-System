@@ -1,5 +1,8 @@
 # Unity Ghost Replay System
 
+![Recording](https://github.com/MaikelHendrikx1/Unity-Ghost-Replay-System/assets/84376526/0f2fe66c-51e9-4aa0-af91-55eec77ff0a8)
+
+
   * [Introduction](#introduction)
   * [How to implement](#how-to-implement)
   * [Performance impact](#performance-impact)
